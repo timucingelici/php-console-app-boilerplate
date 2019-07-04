@@ -1,0 +1,12 @@
+{
+    "require": {
+        "symfony/console": "^4.3",
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commands\\": "src/Commands/",
+            "Tests\\": "tests/"
+        }
+    }
+}
